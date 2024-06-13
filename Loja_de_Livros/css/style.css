@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scrollbar-width: smooth;
+}
+
+.container {
+    width: 1366px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 18px;
+    background-color: rgb(71, 39, 39);
+    color: #fffefec5;
+}
+
+.container h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.container h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+}
+
+.container-img h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 22px;
+}
+
+header .container,
+#sobre {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    margin: 18px 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 14px;
+    font-size: 24px;
+    font-family: "Kanit", sans-serif;
+}
+
+header nav li a:hover {
+    color: #50cae8c5;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fffefec5;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.article-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-img {
+    justify-content: center;
+    text-align: center;
+}
+
+#produto img {
+    padding: 14px;
+    height: 250px;
+    width: 100%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+form textarea:focus,
+form input:focus {
+    outline-color: #50cae8c5;
+}
+
+form button:hover {
+    background-color: #50cae8c5;
+    cursor: pointer;
+}
+footer{
+    max-height: 100%;
+}
